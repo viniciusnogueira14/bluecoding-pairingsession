@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://172.17.0.2:5432/personal
+    username: customer_user
+    password: customer_password
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        default_schema: customers
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQL95Dialect
+
+logging:
+  level:
+    root: INFO
