@@ -21,4 +21,4 @@ logging:
 
 bluecoding:
   job:
-    cron: 0/5 * * * * ?
+    cron: 0 0/1 * * * ?
